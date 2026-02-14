@@ -1,116 +1,128 @@
-💪 FitPlan AI – Personalized Fitness Plan Generator
-📌 Milestone 1 – BMI Based Fitness Profile Application
-🎯 Objective of the Milestone
+# 💪 FitPlan AI – Personalized Fitness Plan Generator
 
-The objective of this milestone is to develop a user-friendly fitness profile web application that:
+## 📌 Milestone 1 – BMI Based Fitness Profile Application
 
-Collects essential health and fitness details from users
+---
 
-Accurately calculates Body Mass Index (BMI)
+## 🎯 Objective of the Milestone
 
-Classifies BMI into standard health categories
+The objective of this milestone is to develop a **user-friendly fitness profile web application** that:
 
-Displays personalized fitness insights
+* Collects essential health and fitness details from users
+* Accurately calculates Body Mass Index (BMI)
+* Classifies BMI into standard health categories
+* Displays personalized fitness insights
+* Is successfully deployed on Hugging Face Spaces
 
-Is successfully deployed on Hugging Face Spaces
+This milestone focuses on **core health metric calculation, input validation, and deployment**.
 
-This milestone focuses on core health metric calculation, input validation, and deployment.
+---
 
-📝 Task Overview
-✅ Develop a user-friendly fitness profile form
-✅ Capture essential user health details
-✅ Implement accurate BMI calculation logic
-✅ Classify BMI into standard health categories
-✅ Deploy a functional application on Hugging Face Spaces
-🧾 Required Input Fields
-1️⃣ Personal Information
+## 📝 Task Overview
 
-Name (Required)
+* ✅ Develop a user-friendly fitness profile form
+* ✅ Capture essential user health details
+* ✅ Implement accurate BMI calculation logic
+* ✅ Classify BMI into standard health categories
+* ✅ Deploy a functional application on Hugging Face Spaces
 
-Height (in centimeters) – Required
+---
 
-Weight (in kilograms) – Required
+## 🧾 Required Input Fields
 
-2️⃣ Fitness Details
+### 1️⃣ Personal Information
 
-Fitness Goal:
+* **Name** (Required)
+* **Height** (in centimeters) – Required
+* **Weight** (in kilograms) – Required
 
-Build Muscle
+### 2️⃣ Fitness Details
 
-Weight Loss
+#### 🎯 Fitness Goal
 
-Strength Gain
+* Build Muscle
+* Weight Loss
+* Strength Gain
+* Abs Building
+* Flexible
 
-Abs Building
+#### 🏋️ Available Equipment (Multiple Selection Allowed)
 
-Flexible
+* Dumbbells
+* Resistance Band
+* Yoga Mat
+* No Equipment
+* etc.
 
-Available Equipment (Multiple Selection Allowed):
+#### 📊 Fitness Level
 
-Dumbbells
+* Beginner
+* Intermediate
+* Advanced
 
-Resistance Band
+---
 
-Yoga Mat
+## 🧮 BMI Calculation Logic
 
-No Equipment
+### Step 1: Convert height from centimeters to meters
 
-etc.
-
-Fitness Level:
-
-Beginner
-
-Intermediate
-
-Advanced
-
-🧮 BMI Calculation Logic
-Step 1: Convert height from centimeters to meters
-
+```
 Height (meters) = Height (cm) ÷ 100
+```
 
-Step 2: Apply BMI Formula
+### Step 2: Apply BMI Formula
 
+```
 BMI = Weight (kg) / (Height in meters)²
+```
 
-Step 3: Round BMI
+### Step 3: Round BMI
 
-The calculated BMI is rounded to two decimal places.
+The calculated BMI is rounded to **two decimal places**.
 
-📊 BMI Classification Standards
-BMI Range	Category
-Less than 18.5	Underweight
-18.5 – 24.9	Normal
-25 – 29.9	Overweight
-30 and above	Obese
+---
 
-🛠️ Technologies Used
+## 📊 BMI Classification Standards
 
-Python
+| BMI Range      | Category    |
+| -------------- | ----------- |
+| Less than 18.5 | Underweight |
+| 18.5 – 24.9    | Normal      |
+| 25 – 29.9      | Overweight  |
+| 30 and above   | Obese       |
 
-Streamlit
+---
 
-Hugging Face Spaces
+## 🛠️ Technologies Used
 
-Git & GitHub
+* Python
+* Streamlit
+* Hugging Face Spaces
+* Git & GitHub
 
-🚀 Deployment
+---
 
-The application is deployed on Hugging Face Spaces.
+## 🚀 Deployment
 
-🔗 Hugging Face Space Link: https://huggingface.co/spaces/nikhilh45/FitPlan_AI-Personalized_Fitness_Plan_Generator
+The application is deployed on **Hugging Face Spaces**.
+
+🔗 **Live Application:**
+[https://huggingface.co/spaces/nikhilh45/FitPlan_AI-Personalized_Fitness_Plan_Generator](https://huggingface.co/spaces/nikhilh45/FitPlan_AI-Personalized_Fitness_Plan_Generator)
+
+---
+
+## ✅ Milestone Achievements
 
 This milestone successfully demonstrates:
 
-Practical BMI calculation implementation
+* Practical BMI calculation implementation
+* Form validation and user input handling
+* Clean UI development using Streamlit
+* Deployment on Hugging Face Spaces
+* Proper GitHub repository structure
 
-Form validation and user input handling
+---
 
-Clean UI development using Streamlit
-
-Deployment on Hugging Face Spaces
-
-Proper GitHub repository structure
+## 📈 Conclusion
 
 The application forms the foundation for building a complete AI-powered personalized fitness planning system.
